@@ -16,7 +16,7 @@
 
   require ROOT_PATH . "Controller/API/UserController.php";
 
-  // $user = new UserController();
+  $user = new UserController();
 
   $methodName = $uri[4].'Action';
 
